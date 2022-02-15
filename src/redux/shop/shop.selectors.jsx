@@ -17,3 +17,4 @@ export const selectCollection = memoize((collectionUrlParam) => createSelector(
   [selectCollections],
   collections => collections[collectionUrlParam]
 ));
+
